@@ -1,7 +1,10 @@
+
 # uMETEO
 
-Una meteo app progettata e realizzata a scopo didattico (e "from scratch") sfruttando le API gratuite di [openweathermap](https://openweathermap.org/) e le funzionalità di geolocalizzazione del browser. Idealmente implementabile di nuove funzionalità (x es. eleggibilità di opzioni come "posizione" e "unità di misura"). <a href="https://umeteo.netlify.app" target="_blank">Enjoy it!</a>
+![Logo](https://raw.githubusercontent.com/g4esp/uMETEO/8e655f8a54fd289eb36644dd547f97837cb7e292/src/favicon.svg)
 
-![uMETEO App](uMETEO.png?raw=true)
+Una meteo app progettata e realizzata a scopo didattico (e "from scratch") sfruttando le API gratuite di [openweathermap](https://openweathermap.org/) e le funzionalità di geolocalizzazione del browser. Idealmente implementabile con nuove funzionalità (x es. opzioni come "posizione" e "unità di misura").
 
-Ispirazione design: [Weather Forecast - Mobile application by Abdullah Sajol](https://dribbble.com/shots/16361858-Weather-Forecast-Mobile-application)
+---
+
+Design liberamente ispirato da: [Weather Forecast - Mobile application by Abdullah Sajol 🚀](https://dribbble.com/shots/16361858-Weather-Forecast-Mobile-application)
