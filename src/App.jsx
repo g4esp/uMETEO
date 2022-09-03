@@ -6,7 +6,9 @@ import Today from "./components/Today"
 import Tomorrow from "./components/Tomorrow"
 import { Transition } from "@headlessui/react"
 
-const appid = import.meta.env.VITE_APP_ID
+// const appid = import.meta.env.VITE_APP_ID
+const appid = "9d80cddf8c01893b2fc8d8a417227284"
+
 const api = `https://api.openweathermap.org/data/2.5/`
 const params = `lang=it&units=metric`
 
