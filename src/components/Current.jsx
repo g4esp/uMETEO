@@ -9,16 +9,16 @@ const Current = ({current, temps}) => {
     hh: new Date().getHours(),
     mm: new Date().getMinutes(),
     formatDigits(n) {
-      return "0" + n.toString() // => 015
+      return `0${n.toString()}` // => "011"
     }, 
     getDay() {
-      return new Date().toLocaleString('it-IT', {'month': 'long', 'day': '2-digit'}) // => 15 giugno
+      return new Date().toLocaleString('it-IT', {'month': 'long', 'day': '2-digit'}) // => "15 giugno"
     },
     getTime() {
-      return `${this.formatDigits(this.hh).slice(-2)}:${this.formatDigits(this.mm).slice(-2)}` // => 08:42
+      return `${this.formatDigits(this.hh).slice(-2)}:${this.formatDigits(this.mm).slice(-2)}` // => "11:42"
     },
     giveMeTheString() {
-      return `${this.getDay()}, ${this.getTime()}` // => 15 giugno, 08:42
+      return `${this.getDay()}, ${this.getTime()}` // => "15 giugno, 11:42"
     }
   }
 
