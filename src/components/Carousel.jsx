@@ -9,8 +9,7 @@ const Carousel = ({forecast, setView}) => {
     arrows: false,
     dots: false,
     infinite: false,
-    slidesToShow: 1,
-    slidesToScoll: 1,
+    slidesToShow: 3,
   }
   return(
     <>
